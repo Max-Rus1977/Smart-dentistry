@@ -1,0 +1,964 @@
+@media only screen and (max-width : 1300px) {
+  .first-screen_box-consultation {
+    margin: 0px 7% 0 auto;
+  }
+
+  .portfolio_slid_img-box,
+  .portfolio_slid_img-box:before {
+    width: 307px;
+  }
+}
+
+@media only screen and (max-width : 1250px) {
+
+  .continer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .header.continer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  .geolocaton, .phone {
+    margin-right: 15px;
+  }
+
+  .portfolio_sliders-title {
+    margin: 10px 0 0 21%;
+  }
+
+}
+
+@media only screen and (max-width : 1200px) {
+  .geolocaton-col, .phone-col {
+    width: 21%;
+  }
+
+  .geolocaton {
+    margin-right: 0;
+  }
+
+  .portfolio_slid_img-box, 
+  .portfolio_slid_img-box:before {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .portfolio_slid_box-before,
+  .portfolio_slid_box-after {
+    width: 47%;
+    /*margin: 0 auto;*/
+  }
+
+  .portfolio_slid_box-after {
+    margin-left: calc(6% - 5px);
+  }
+
+  .choose-us-box {
+    width: 90%;
+  }
+
+  .coments-slide .owl-nav {
+    top: -27%;
+  }
+
+}
+
+@media only screen and (max-width : 1100px) {
+  .geolocaton-col {
+    display: none;
+  }
+
+  .phone-col {
+    width: 25%;
+    margin-right: 25px;
+  }
+
+  .header-menu ul li:first-child {
+    display: none;
+  }
+
+  .first-screen_box-consultation {
+    max-width: 558px;
+    height: 372px;
+    margin: 0px 30px 0 auto;
+  }
+
+  .about-us_content {
+    margin-bottom: 10px;
+  }
+
+  .sing-up_row {
+    max-width: 90%;
+    margin: 38px auto 0 auto;
+  }
+
+  .contacts_col-text {
+    width: 45%;
+  }
+
+  .contacts_col-map {
+    width: 55%;
+  }
+
+}
+
+@media only screen and (max-width : 1010px) {
+
+  .pt-section {
+    padding-top: 90px;
+  }
+
+  .portfolio_sliders-title {
+    margin: 10px 0 0 17%;
+  }
+
+  .photo-gallery, 
+  .certificates {
+    margin-top: 90px;
+  }
+
+} 
+
+@media only screen and (max-width : 1000px) {
+
+  .dn-1000 {
+    display: none;
+  }
+
+  .col-3-1000 {
+    width: 33.3%;
+  }
+
+  .about-us_first-row {
+    display: block;
+  }
+
+  .about-us_image-col {
+    float: left;
+    width: 50%;
+  }
+
+  .about-us_box {
+    width: 80%;
+  }
+
+  .stocks_slid-title-col {
+    padding-left: 15px;
+  }
+
+  .doctors_slid {
+    margin-right: 39%;
+  }
+
+  .active.center .doctors_slid {
+    left: -34%;
+  }
+
+}
+
+@media only screen and (max-width : 950px) {
+  .phone-col {
+    width: 30%;
+  }
+
+  .sing-up_text-title {
+    margin: 60px 0 0 60px;
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .sing-up_text {
+    margin: 35px 0 0 60px;
+  }
+
+  .sing-up_form-col {
+    padding-right: 20px;
+  }
+
+  .sing-up_form {
+    padding-top: 98px;
+  }
+
+  .box-personal-data {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .input-checkbox {
+    margin-right: 10px;
+  }
+
+  .res-950 {
+    display: block;
+  }
+
+  .footer_title {
+    font-size: 18px;
+  }
+
+  .footer_title-text {
+    font-size: 16px;
+    text-transform: lowercase;
+  }
+
+}
+
+@media only screen and (max-width : 900px) {
+
+  .lodo_text {
+    padding-left: 85px;
+    font-size: 30px;
+  }
+
+  .first-screen {
+    height: auto;
+    padding: 75px 0 60px 0;
+  }
+
+  .first-screen_box-consultation {
+    max-width: 388px;
+    max-height: 319px;
+    margin: 0px 15px 0 auto;
+  }
+
+  .box-consultation-title span {
+    font-weight: 600;
+  }
+
+  .box-consultation-title {
+    width: 88%;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .box-consultation-title:before {
+    display: none;
+  }
+
+  .box-consultation-row {
+    margin: 12px auto 0 auto;
+    width: 88%;
+  }
+
+  .first-screen_box-consultation .col {
+    width: 100%;
+    background-image: url(../img/sing-up-imge.png);
+    padding-left: 35px;
+    flex: 1 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .box-consultation-title .btn-sign-up {
+    margin: 30px auto 0 auto;
+  }
+
+  .stocks_slid {
+    height: auto;
+  }
+
+  .stocks_slid-image-col {
+    height: auto;
+    padding-top: 25px;
+  }
+
+  .stocks_slid-title-col {
+    width: 65%;
+  }
+
+  .stocks_slid-title {
+    margin-top: 25px;
+  }
+
+  .stocks_slid-prais-col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    padding-right: 6%;
+    margin-top: -90px;
+  }
+
+  .stocks_slid-box-prase {
+    margin: 0 45px 0 0;
+  }
+
+  .stocks_slid-time-col {
+    margin: 35px 0;
+  }
+
+  .services-col {
+    width: 100%;
+  }
+
+  .services_label {
+    margin: 0 auto;
+  }
+
+  .portfolio-col_title,
+  .portfolio-col_content {
+    width: 100%;
+  }
+
+  .portfolio_sliders-title {
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width : 850px) {
+
+  .coments-slide .owl-nav {
+    top: -34%;
+  }
+
+  .contacts_phon {
+    font-size: 22px;
+  }
+
+  .contacts_email, 
+  .contacts_adres {
+    font-size: 16px;
+  }
+
+
+}
+
+@media only screen and (max-width : 800px) {
+
+  .col-4-res-800 {
+    width: 50%;
+  }
+
+  .about-us_box-row .col-4-res-800:nth-child(n+3) {
+    margin-top: 50px;
+  } 
+
+  .trust_row {
+    margin-top: 30px;
+  }
+
+  .trust-text-italic {
+    font-size: 16px;
+    line-height: 100%;
+  }
+
+  .trust_slag {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+}
+
+@media only screen and (max-width : 780px) {
+
+  .header-up-row {
+    height: auto;
+  }
+
+  .col-logo {
+    margin-top: 20px;
+  } 
+
+  .col-logo:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgba(18 123 215 / 20%);
+    box-shadow: 1px 8px 10px 0px rgb(18 123 215 / 20%);
+  } 
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .phone-col {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 25px auto;
+  }
+
+  .burger {
+    width: 50px;
+    height: 26px;
+    margin: 0 25px 0 15px;
+  }
+
+  .burger-lines {
+    position: relative;
+    width: 50px;
+    height: 3px;
+    background-color: #127BD7;
+    transition: 0.9s;
+  }
+
+  .burger-lines:before,
+  .burger-lines:after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background-color: #127BD7;
+  }
+
+  .burger-lines:before {
+    top: 10px;
+    left: 0;
+  }
+
+  .burger-lines:after {
+    top: 20px;
+    left: 0;
+    transform: rotateX(10deg);
+    transition: 0.9s;
+  }
+
+  /* Burger animate */
+  ._burger-animate .burger-lines {
+    width: 40px;
+    top: 9px;
+    transform: rotate(45deg);
+    transition: 0.9s;
+  }
+  ._burger-animate .burger-lines:before {
+    opacity: 0;
+  }
+  ._burger-animate .burger-lines:after {
+    width: 42px;
+    top: 0px;
+    transform: rotate(-90deg);
+    transition: 0.9s;
+  }
+  /* -------------- */
+
+  .header-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 98%;
+    left: 1%;
+    right: 1%;
+    top: 163px;
+    padding: 40px 56px 127px 56px;
+    justify-content: center;
+    font-size: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px rgba(18, 123, 215, 0.15);
+    z-index: -10;
+    opacity: 0;
+    transform: translate(0px, 120%);
+    transition: 0.8s;
+  }
+
+  .header-menu li {
+    display: block;
+    margin: 0;
+  }
+
+  .header-menu li a {
+    color: #1A1A1A;
+    font-size: 22px;
+  }
+
+  ._visibl-mabale-menu {
+    z-index: 10;
+    opacity: 1;
+    transform: translate(0%, 0px);
+    transition: 0.8s;
+  }
+
+  .about-us_first-row,
+  .services_row {
+    margin-top: 50px;
+  }
+
+  .choose-us-box-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 22px auto;
+    background-size: contain;
+  }
+
+  .choose-us-box-img p {
+    font-size: 18px;
+  }
+
+  .owl-theme .owl-nav {
+    display: none;
+  }
+
+  .stocks_slid-title-col {
+    display: flex;
+    align-items: center;
+  }
+
+  .stocks_slid-title {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .stocks_slid-prais-col {
+    justify-content: center;
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .active.center .doctors_slid {
+    left: 0;
+    width: 96%;
+  }
+
+  .doctors .owl-nav {
+    top: -17%;
+  }
+
+  .trust {
+    margin-bottom: 90px;
+  }
+
+  .portfolio .owl-nav {
+    display: none;
+  }
+
+  .rating_slag {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+}
+
+@media only screen and (max-width : 680px) {
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .logo {
+    height: 50px;
+    background-size: contain;
+  }
+
+  .lodo_text {
+    padding-left: 65px;
+    font-size: 24px;
+  }
+
+  .about-us_first-row {
+    display: flex;
+  }  
+
+  .about-us_image-col {
+    order: 1;
+    flex: 1 0 auto;
+    float: none;
+    width: 100%;
+    margin: 0 auto 40px auto;
+  }
+
+  .about-us-image {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about-us_box-row {
+    margin-bottom: 40px;
+  }
+
+  .about-us_box-row {
+    margin-top: 40px;
+  }
+
+  .about-us_content {
+    font-size: 16px;
+  }
+
+  .col-2-680 {
+    width: 50%;
+  }
+
+  .choose-us_row .col-2-680:nth-child(n+3) {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .choose-us_row .col-2-680:nth-child(-n+3){
+    margin-bottom: 0;
+  }
+
+  .choose-us-box {
+    width: 80%;
+  }
+
+  .stocks_slid-image-box {
+    margin-left: 24px;
+  }
+
+  .normal-praise {
+    font-size: 20px;
+  }
+
+  .stocks-praise {
+    font-size: 30px;
+  }
+
+  .stocks_slid-btn .btn-sign-up {
+    width: 214px;
+    font-size: 18px;
+  }
+
+  .trust-img-col,
+  .trust-text-col {
+    width: 100%;
+  }
+
+  .trust_img-box {
+    max-width: 262px;
+  }
+
+  .trust-text {
+    position: relative;
+    padding: 35px 20px 35px 30px; 
+  }
+
+
+  .sing-up_text-col,
+  .sing-up_form-col {
+    width: 100%;
+    padding: 0 60px;
+  }
+
+  .sing-up_text-title {
+    margin: 40px 0 0 0;
+  }
+
+  .sing-up_text {
+    margin: 35px 0 0 0;
+  }
+
+  .sing-up_form-col {
+    padding-top: 0;
+  }
+
+  .sing-up_form {
+    padding-top: 20px;
+  }
+
+  .sing-up_input-box {
+    max-width: 100%;
+  }
+
+  .btn-sign-up-form {
+    margin: 40px auto 0 auto;
+  }
+
+  .box-personal-data {
+    justify-content: center;
+  }
+
+  .res-950 {
+    display: none;
+  }
+
+  .contacts_col-text,
+  .contacts_col-map {
+    width: 100%;
+  }
+
+  .contacts_col-map {
+    margin-top: 20px;
+  }
+
+  .contacts_email, 
+  .contacts_boxadres {
+    margin-top: 10px;
+  }
+
+  .footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .footer .col-3 {
+    width: 100%;
+  }
+
+  .footer_license {
+    order: 1;
+  }
+
+  .footer_contacts {
+    order: -1;
+  }
+
+  .footer_license,
+  .footer_name {
+    margin-top: 15px;
+  }
+
+  .footer_title {
+    text-align: left;
+  }
+
+  .footer_box-PhonEmail {
+    float: none;
+  }
+
+  .footer_icon {
+    justify-content: left;
+  }
+
+  .footer_icon .footer_icon-box:not(:first-child) {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+
+  .portfolio_sliders-title {
+    font-size: 20px;
+  }
+
+  .portfolio_slid_box-before p, 
+  .portfolio_slid_box-after p {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width : 550px) {
+
+  .first-screen_box-consultation {
+    max-width: 266px;
+    max-height: 293px;
+  }
+
+  .box-consultation-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .first-screen_box-consultation .col {
+    margin-bottom: 10px;
+    background-size: inherit;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .first-screen_box-consultation .col:last-child {
+    margin-bottom: 0;
+  }
+
+  .first-screen {
+    height: auto;
+    padding: 15px 0 15px 0;
+  }
+
+  .choose-us-box {
+    width: 96%;
+  }
+
+  .stocks_slid-btn .btn-sign-up {
+    width: 175px;
+  }
+
+  .doctors_slid {
+    height: auto;
+  }
+
+  .doctors_slid_img-box,
+  .active.center .doctors_slid_col-text {
+    width: 100%;
+    flex: 1 0 auto;
+  }
+
+  .doctors_slid_col-text {
+    margin-bottom: 100px;
+  }
+
+  .btn-sign-up,
+  .btn-sign-up-form {
+    width: 175px;
+    margin: 24px auto 0 auto;
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width : 490px) {
+
+  .continer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .pt-section {
+    padding-top: 40px;
+  }
+
+  .about-us_first-row, 
+  .services_row,
+  .stocks-slide,
+  .trust_slag,
+  .rating_slag,
+  .coments-slide,
+  .contacts_row {
+    margin-top: 20px;
+  }
+
+  .photo-gallery, 
+  .certificates {
+    margin-top: 40px;
+  }
+
+  .trust {
+    margin-bottom: 50px;
+  }
+
+  .choose-us-box {
+    font-size: 14px;
+  }
+
+  .stocks_slid {
+    border-radius: 20px;
+  }
+
+  .stocks-slide .owl-nav {
+    top: -15%;
+  }
+
+  .stocks_slid-image-col {
+    width: 100%;
+  }
+
+  .stocks_slid-image-box {
+    margin: 0 auto;
+  }
+
+  .stocks_slid-title-col {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 47px;
+    text-align: center;
+  }
+
+  .stocks_slid-prais-col {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stocks_slid-box-prase {
+    margin: 0;
+  }
+
+  .services_label p {
+    font-size: 16px;
+  }
+
+  .coments {
+    margin-top: 35px;
+  }
+
+  .sing-up_row {
+    border-radius: 20px;
+  }
+
+  .sing-up_form {
+    padding-top: 0;
+  }
+
+  .sing-up_text-title {
+    font-size: 20px;
+  }
+
+  .sing-up_text {
+    margin: 17px 0 0 0;
+  }
+
+  .sing-up_input-box input {
+    margin-top: 35px;
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width : 420px) {
+
+  .continer {
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+
+  .lodo_text {
+    font-size: 16px;
+  }
+
+  .about-us_box-row .col-4-res-800:nth-child(n+3) {
+    margin-top: 0;
+  }
+
+  .col-4-res-420 {
+    width: 100%;
+    margin: 0 0 35px 0;
+  }
+
+  .sing-up_text-col, .sing-up_form-col {
+    padding: 0 20px;
+  }
+
+  .sing-up_text-title {
+    font-size: 20px;
+  }
+
+  .sing-up_text {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width : 380px) {
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .pt-section {
+    padding-top: 30px;
+  }
+
+  .photo-gallery, 
+  .certificates,
+  .contacts_row {
+    margin-top: 15px;
+  }
+
+  .about-us_first-row, 
+  .services_row,
+  .stocks-slide,
+  .trust_slag,
+  .rating_slag,
+  .coments-slide {
+    margin-top: 15px;
+  }
+
+  .services_label p {
+    font-size: 14px;
+  }
+
+}

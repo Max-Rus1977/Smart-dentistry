@@ -1,0 +1,16 @@
+Montserrat Italic !
+Montserrat Regular !
+Montserrat Bold !
+Montserrat ExtraBold !
+Montserrat SemiBold !
+Montserrat Medium !
+
+Fira Sans Bold
+Fira Sans SemiBold
+
+Roboto Regular !
+Roboto Bold !
+
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
