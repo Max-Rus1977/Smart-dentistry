@@ -420,3 +420,68 @@ function getMap() {
   }
 }
 
+/* Forms validation */
+const allForms = document.querySelectorAll('form');
+
+for (let thisForm of allForms) {
+  thisForm.addEventListener('submit', formSend);
+}
+
+function formSend(event) {
+  event.preventDefault();
+  const focusForm = event.target;
+  let error = formValidate(focusForm);
+
+  if (error === 0) {
+    focusForm.classList.add('_sending-js');
+    setTimeout(removeSending, 1000);
+    setTimeout(focusForm.reset(), 1000);
+    setTimeout(addVisblThanks, 1100);
+  }
+  else {
+    alert('Заполните оязательные поля!');
+  }
+  function removeSending() {
+    focusForm.classList.remove('_sending-js');
+    if (focusForm.closest('.modal')) {
+      focusForm.closest('.modal').classList.remove('modal-visibl');
+    }
+  }
+}
+
+function formValidate(thisForm) {
+  let error = 0;
+  const formInputs = thisForm.querySelectorAll('input');
+
+  for (let formInput of formInputs) {
+    if (formInput.name === 'userName') {
+      inputRemoveError(formInput);
+      if (formInput.value === '') {
+        inputAddError(formInput);
+        error++;
+      }
+    }
+    if (formInput.name === 'userPhone') {
+      inputRemoveError(formInput);
+      if (formInput.value.length !== 17 || formInput.value === '') {
+        inputAddError(formInput);
+        error++;
+
+      }
+    }
+  }
+  return error;
+}
+
+const modalThanks = document.querySelector('.modal-thanks');
+function addVisblThanks() {
+  modalThanks.classList.add('modal-visibl');
+}
+//.sing-up_input-box
+function inputAddError(formInput) {
+  formInput.closest('.sing-up_input-box').classList.add('_error-js')
+}
+
+function inputRemoveError(formInput) {
+  formInput.closest('.sing-up_input-box').classList.remove('_error-js')
+}
